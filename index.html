@@ -12,7 +12,11 @@
 
 <body>
   <!-- TODO: Banner -->
-  <div class="container-fluid" id="banner">
+  <div class="container-fluid d-sm-inline-flex justify-content-start justify-content-sm-around" id="banner">
+    <h1  class="my-auto" id="bannerHeading">HYDROSPARK PLUMBING</h1>
+    <div class="my-auto d-flex justify-content-around"> <p>24/7 service</p>
+    <button type="button" class="btn btn-primary "> CONTACT </button>
+  </div>
     <!-- TODO: Logo -->
     <!-- TODO: 24/7 Service -->
     <!-- TODO: FB and Insta and LinkedIN -->
@@ -20,28 +24,27 @@
   </div>
   <!-- TODO: Navbar -->
   <!-- TODO: Navbar should be collapseable -->
-  <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-      <div class="navbar-nav">
+      <div class="navbar-nav justify-content-around" id="navbar-nav--1">
           <a class="nav-item nav-link active" href="#"> Home <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="#"> About </a>
-
-
-
+          <div class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Services </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a href="#" class="dropdown-item">Action</a>
-            <a href="#" class="dropdown-item">Another action</a>
+            <a href="#" class="dropdown-item">Plumbing</a>
+            <a href="#" class="dropdown-item">Gas</a>
+            <a href="#" class="dropdown-item">Hot Water</a>
+            <a href="#" class="dropdown-item">Bathrooms</a>
             <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">Something else</a>
+            <a href="#" class="dropdown-item">Developments</a>
           </div>
-        </li>
-      </ul>
+        </div>
     </div>
   </nav>
   <!-- TODO: Home -->
