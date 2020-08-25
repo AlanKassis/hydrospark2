@@ -6,11 +6,13 @@ body {
 
 #banner {
   background: black;
-  height: 25vh;
   color: white;
   border: 1px solid dodgerblue;
+  min-height: 25vh;
   #banner-heading {
     border:1px solid dodgerblue;
+    font-size:calc(24px + 1.5vw);
+    text-align: center;
   }
   #banner-div {
     border: 1px solid dodgerblue;
@@ -23,7 +25,11 @@ body {
 
   }
 }
+#navbar {
 
+}
+//This makes the space-around flex property work as intended
 #navbar-nav--1 {
+
   width: 100%!important;
 }
