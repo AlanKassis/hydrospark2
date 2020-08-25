@@ -3,7 +3,17 @@ body {
 
 #banner {
   background: black;
-  height: 25vh; }
+  height: 25vh;
+  color: white;
+  border: 1px solid dodgerblue; }
+  #banner #banner-heading {
+    border: 1px solid dodgerblue; }
+  #banner #banner-div {
+    border: 1px solid dodgerblue; }
+    #banner #banner-div #banner-div--button:focus {
+      border-color: yellow; }
+    #banner #banner-div #banner-div--copy {
+      margin-top: 1em; }
 
 #navbar-nav--1 {
   width: 100% !important; }

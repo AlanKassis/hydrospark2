@@ -1,6 +1,5 @@
 $primary-color: rgb(34,34,34);
 
-
 body {
   background-color: $primary-color;
 }
@@ -8,8 +7,23 @@ body {
 #banner {
   background: black;
   height: 25vh;
+  color: white;
+  border: 1px solid dodgerblue;
+  #banner-heading {
+    border:1px solid dodgerblue;
+  }
+  #banner-div {
+    border: 1px solid dodgerblue;
+  #banner-div--button:focus {
+    border-color: yellow;
+  }
+    #banner-div--copy {
+      margin-top: 1em;
+    }
+
+  }
 }
 
 #navbar-nav--1 {
-  width:100%!important;
+  width: 100%!important;
 }
