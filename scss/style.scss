@@ -25,12 +25,19 @@ body {
 
   }
 }
+
 //This makes the space-around flex property work as intended
 #navbar-nav--1 {
-
+  flex-direction: row;
   width: 100%!important;
 }
+.dropdown-menu {
+  left:-50px;
+}
+.dropdown-menu.show {
+   position: absolute;
 
+}
 #home {
   hr {
     background-color: $text-color;
