@@ -1,5 +1,8 @@
 $primary-color: rgb(34,34,34);
 $text-color: white;
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: $primary-color;
   color: $text-color;
@@ -52,7 +55,7 @@ body {
 }
 
  .service  {
-    height:25vh;
+  
   }
 
     .service-text {
