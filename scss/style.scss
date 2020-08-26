@@ -7,15 +7,15 @@ body {
 #banner {
   background: black;
   color: white;
-  border: 1px solid dodgerblue;
+  // border: 1px solid dodgerblue;
   min-height: 25vh;
   #banner-heading {
-    border:1px solid dodgerblue;
+    // border:1px solid dodgerblue;
     font-size:calc(24px + 1.5vw);
     text-align: center;
   }
   #banner-div {
-    border: 1px solid dodgerblue;
+    // border: 1px solid dodgerblue;
   #banner-div--button:focus {
     border-color: yellow;
   }
@@ -25,11 +25,22 @@ body {
 
   }
 }
-#navbar {
-
-}
 //This makes the space-around flex property work as intended
 #navbar-nav--1 {
 
   width: 100%!important;
+}
+
+#home-content {
+  color:white;
+  hr {
+    background-color: white;
+    width:50%;
+    text-align: left;
+    margin-left: 0;
+  }
+  #home-content--header {
+    color:dodgerblue;
+    text-align: left;
+  }
 }

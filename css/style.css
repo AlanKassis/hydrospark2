@@ -4,18 +4,25 @@ body {
 #banner {
   background: black;
   color: white;
-  border: 1px solid dodgerblue;
   min-height: 25vh; }
   #banner #banner-heading {
-    border: 1px solid dodgerblue;
     font-size: calc(24px + 1.5vw);
     text-align: center; }
-  #banner #banner-div {
-    border: 1px solid dodgerblue; }
-    #banner #banner-div #banner-div--button:focus {
-      border-color: yellow; }
-    #banner #banner-div #banner-div--copy {
-      margin-top: 1em; }
+  #banner #banner-div #banner-div--button:focus {
+    border-color: yellow; }
+  #banner #banner-div #banner-div--copy {
+    margin-top: 1em; }
 
 #navbar-nav--1 {
   width: 100% !important; }
+
+#home-content {
+  color: white; }
+  #home-content hr {
+    background-color: white;
+    width: 50%;
+    text-align: left;
+    margin-left: 0; }
+  #home-content #home-content--header {
+    color: dodgerblue;
+    text-align: left; }
