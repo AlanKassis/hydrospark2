@@ -20,6 +20,9 @@ body {
   flex-direction: row;
   width: 100% !important; }
 
+.sticky-top {
+  top: -1px !important; }
+
 .dropdown-menu {
   left: -50px; }
 
@@ -35,6 +38,12 @@ body {
 #home #home--header {
   color: dodgerblue;
   text-align: left; }
+
+#about {
+  scroll-margin-top: 56px; }
+
+.service {
+  scroll-margin-top: 56px; }
 
 .service-text {
   text-align: center;

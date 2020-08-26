@@ -6,6 +6,7 @@ html {
 body {
   background-color: $primary-color;
   color: $text-color;
+  // padding-top: .2em;
 }
 
 #banner {
@@ -31,8 +32,12 @@ body {
 
 //This makes the space-around flex property work as intended
 #navbar-nav--1 {
+  // height:60px;
   flex-direction: row;
   width: 100%!important;
+}
+.sticky-top {
+  top:-1px !important;
 }
 .dropdown-menu {
   left:-50px;
@@ -53,9 +58,11 @@ body {
     text-align: left;
   }
 }
-
+ #about {
+   scroll-margin-top:56px;
+ }
  .service  {
-
+  scroll-margin-top:56px;
   }
 
     .service-text {
