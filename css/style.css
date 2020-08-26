@@ -1,9 +1,9 @@
 body {
-  background-color: #222222; }
+  background-color: #222222;
+  color: white; }
 
 #banner {
   background: black;
-  color: white;
   min-height: 25vh; }
   #banner #banner-heading {
     font-size: calc(24px + 1.5vw);
@@ -16,13 +16,25 @@ body {
 #navbar-nav--1 {
   width: 100% !important; }
 
-#home-content {
-  color: white; }
-  #home-content hr {
-    background-color: white;
-    width: 50%;
-    text-align: left;
-    margin-left: 0; }
-  #home-content #home-content--header {
-    color: dodgerblue;
-    text-align: left; }
+#home hr {
+  background-color: white;
+  width: 50%;
+  text-align: left;
+  margin-left: 0; }
+
+#home #home--header {
+  color: dodgerblue;
+  text-align: left; }
+
+#plumbing {
+  height: 25vh; }
+  #plumbing #plumbing-cover-text {
+    text-align: center;
+    position: relative;
+    z-index: 1; }
+  #plumbing #plumbing-cover-img {
+    height: inherit;
+    background-image: url(/img/plumbing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }

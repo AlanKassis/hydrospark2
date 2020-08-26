@@ -1,12 +1,12 @@
 $primary-color: rgb(34,34,34);
-
+$text-color: white;
 body {
   background-color: $primary-color;
+  color: $text-color;
 }
 
 #banner {
   background: black;
-  color: white;
   // border: 1px solid dodgerblue;
   min-height: 25vh;
   #banner-heading {
@@ -31,16 +31,32 @@ body {
   width: 100%!important;
 }
 
-#home-content {
-  color:white;
+#home {
   hr {
-    background-color: white;
+    background-color: $text-color;
     width:50%;
     text-align: left;
     margin-left: 0;
   }
-  #home-content--header {
+  #home--header {
     color:dodgerblue;
     text-align: left;
   }
 }
+
+ #plumbing {
+    height:25vh;
+    #plumbing-cover-text {
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+    #plumbing-cover-img{
+    height: inherit;
+    background-image: url(/img/plumbing.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    // filter: blur(1.5px);
+  }
+ }
