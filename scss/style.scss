@@ -1,8 +1,10 @@
 $primary-color: rgb(34,34,34);
 $text-color: white;
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   background-color: $primary-color;
   color: $text-color;
@@ -13,98 +15,123 @@ body {
   background: black;
   // border: 1px solid dodgerblue;
   min-height: 25vh;
+
   #banner-heading {
     // border:1px solid dodgerblue;
-    font-size:calc(24px + 1.5vw);
+    font-size: calc(24px + 1.5vw);
     text-align: center;
   }
+
   #banner-div {
     // border: 1px solid dodgerblue;
-  #banner-div--button:focus {
-    border-color: yellow;
-  }
+    #banner-div--button:focus {
+      border-color: yellow;
+    }
+
     #banner-div--copy {
       margin-top: 1em;
     }
-
   }
 }
-
 //This makes the space-around flex property work as intended
+
 #navbar-nav--1 {
   // height:60px;
   flex-direction: row;
   width: 100%!important;
 }
-.sticky-top {
-  top:-1px !important;
-}
-.dropdown-menu {
-  left:-50px;
-}
-.dropdown-menu.show {
-   position: absolute;
 
+.sticky-top {
+  top: -1px !important;
 }
+
+.dropdown-menu {
+  left: -50px;
+}
+
+.dropdown-menu.show {
+  position: absolute;
+}
+
 #home {
   hr {
     background-color: $text-color;
-    width:50%;
+    width: 50%;
     text-align: left;
     margin-left: 0;
   }
+
   #home--header {
-    color:dodgerblue;
+    color: dodgerblue;
     text-align: left;
   }
 }
- #about {
-   scroll-margin-top:112px;
- }
- .service  {
-  scroll-margin-top:112px;
+
+#about {
+  scroll-margin-top: 112px;
+}
+
+.service {
+  scroll-margin-top: 112px;
+}
+
+.service-text {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+#plumbing-section {
+  font-size: calc(8px + 1.5vw);
+  ul {
+    padding-left: 0;
   }
+  li {
+    list-style: none;
 
-    .service-text {
-      text-align: center;
-      position: relative;
-      z-index: 1;
-    }
 
-    #plumbing {
-    display: block;
-    position:relative;
-    height: 25vh;
-    background-image: url(/img/plumbing.jpg);
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
   }
-
-  #gas {
+  ion-icon {
+    color:white;
+    font-size: 2em;
+  }
+}
+#plumbing {
   display: block;
-  position:relative;
+  position: relative;
   height: 25vh;
-  background-image: url(/img/gas.jpg);
-  background-position:center;
-  background-repeat:no-repeat;
-  background-size:cover;
+  // max-width: 405px;
+  background-image: url("/img/plumbing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+#gas {
+  display: block;
+  position: relative;
+  height: 25vh;
+  background-image: url("/img/gas.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #hot-water {
-display: block;
-position:relative;
-height: 25vh;
-background-image: url(/img/hotwater.jpg);
-background-position:center;
-background-repeat:no-repeat;
-background-size:cover;
+  display: block;
+  position: relative;
+  height: 25vh;
+  background-image: url("/img/hotwater.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 #bathrooms {
-display: block;
-position:relative;
-height: 25vh;
-background-image: url(/img/bathroom.jpg);
-background-position:center;
-background-repeat:no-repeat;
-background-size:cover;
+  display: block;
+  position: relative;
+  height: 25vh;
+  background-image: url("/img/bathroom.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -50,11 +50,21 @@ body {
   position: relative;
   z-index: 1; }
 
+#plumbing-section {
+  font-size: calc(8px + 1.5vw); }
+  #plumbing-section ul {
+    padding-left: 0; }
+  #plumbing-section li {
+    list-style: none; }
+  #plumbing-section ion-icon {
+    color: white;
+    font-size: 2em; }
+
 #plumbing {
   display: block;
   position: relative;
   height: 25vh;
-  background-image: url(/img/plumbing.jpg);
+  background-image: url("/img/plumbing.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -63,7 +73,7 @@ body {
   display: block;
   position: relative;
   height: 25vh;
-  background-image: url(/img/gas.jpg);
+  background-image: url("/img/gas.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -72,7 +82,7 @@ body {
   display: block;
   position: relative;
   height: 25vh;
-  background-image: url(/img/hotwater.jpg);
+  background-image: url("/img/hotwater.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -81,7 +91,7 @@ body {
   display: block;
   position: relative;
   height: 25vh;
-  background-image: url(/img/bathroom.jpg);
+  background-image: url("/img/bathroom.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
