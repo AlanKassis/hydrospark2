@@ -26,15 +26,46 @@ body {
   color: dodgerblue;
   text-align: left; }
 
-#plumbing {
+.service {
   height: 25vh; }
-  #plumbing #plumbing-cover-text {
-    text-align: center;
-    position: relative;
-    z-index: 1; }
-  #plumbing #plumbing-cover-img {
-    height: inherit;
-    background-image: url(/img/plumbing.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; }
+
+.service-text {
+  text-align: center;
+  position: relative;
+  z-index: 1; }
+
+#plumbing {
+  display: block;
+  position: relative;
+  height: 25vh;
+  background-image: url(/img/plumbing.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#gas {
+  display: block;
+  position: relative;
+  height: 25vh;
+  background-image: url(/img/gas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#hot-water {
+  display: block;
+  position: relative;
+  height: 25vh;
+  background-image: url(/img/hotwater.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#bathrooms {
+  display: block;
+  position: relative;
+  height: 25vh;
+  background-image: url(/img/bathroom.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
