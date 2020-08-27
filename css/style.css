@@ -5,6 +5,16 @@ body {
   background-color: #222222;
   color: white; }
 
+#CTA {
+  background-color: black; }
+  #CTA #CTA-call {
+    width: 50%;
+    border: none;
+    background-color: black;
+    color: white; }
+  #CTA #CTA-socials {
+    width: 50%; }
+
 #banner {
   background: black;
   min-height: 25vh; }

@@ -11,6 +11,18 @@ body {
   // padding-top: .2em;
 }
 
+#CTA {
+  background-color: black;
+  #CTA-call {
+    width:50%;
+    border: none;
+    background-color: black;
+    color:white;
+  }
+  #CTA-socials {
+    width:50%;
+  }
+}
 #banner {
   background: black;
   // border: 1px solid dodgerblue;
@@ -20,6 +32,7 @@ body {
     // border:1px solid dodgerblue;
     font-size: calc(24px + 1.5vw);
     text-align: center;
+
   }
 
   #banner-div {
