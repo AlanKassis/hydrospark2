@@ -8,9 +8,13 @@ html {
 body {
   background-color: $primary-color;
   color: $text-color;
+  font-size: calc(10px + .8vw);
+
   // padding-top: .2em;
 }
-
+p {
+  position: relative;
+}
 #CTA {
   background-color: black;
   #CTA-call {
@@ -98,7 +102,6 @@ body {
 
 .service {
   scroll-margin-top: 112px;
-  font-size: calc(8px + 1vw);
   ul {
     padding-left: 0;
   }
@@ -118,7 +121,7 @@ body {
 }
 #plumbing-section {
   //font size will need adjusting for the sm breakpoint
-  font-size: calc(8px + 1vw);
+
 }
 #plumbing {
   display: block;

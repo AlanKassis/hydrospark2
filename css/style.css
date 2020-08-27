@@ -3,7 +3,11 @@ html {
 
 body {
   background-color: #222222;
-  color: white; }
+  color: white;
+  font-size: calc(10px + .8vw); }
+
+p {
+  position: relative; }
 
 #CTA {
   background-color: black; }
@@ -64,8 +68,7 @@ body {
     color: dodgerblue; }
 
 .service {
-  scroll-margin-top: 112px;
-  font-size: calc(8px + 1vw); }
+  scroll-margin-top: 112px; }
   .service ul {
     padding-left: 0; }
   .service li {
@@ -77,9 +80,6 @@ body {
 .service-text {
   text-align: center;
   position: relative; }
-
-#plumbing-section {
-  font-size: calc(8px + 1vw); }
 
 #plumbing {
   display: block;
