@@ -98,27 +98,27 @@ body {
 
 .service {
   scroll-margin-top: 112px;
-}
-
-.service-text {
-  text-align: center;
-  position: relative;
-  z-index: 1;
-}
-#plumbing-section {
-  font-size: calc(8px + 1.5vw);
+  font-size: calc(8px + 1vw);
   ul {
     padding-left: 0;
   }
   li {
     list-style: none;
-
-
   }
   ion-icon {
     color:white;
-    font-size: 2em;
+    font-size: 1.5em;
   }
+}
+
+.service-text {
+  text-align: center;
+  position: relative;
+  // z-index: 1;
+}
+#plumbing-section {
+  //font size will need adjusting for the sm breakpoint
+  font-size: calc(8px + 1vw);
 }
 #plumbing {
   display: block;
