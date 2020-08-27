@@ -116,3 +116,15 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+#contact-section {
+  scroll-margin-top: 112px; }
+  #contact-section #socials {
+    text-align: center;
+    font-size: calc(55px + 1.5vw);
+    text-decoration: none; }
+  #contact-section a {
+    color: white; }
+  #contact-section a:hover {
+    color: dodgerblue;
+    text-decoration: none; }

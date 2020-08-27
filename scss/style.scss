@@ -160,3 +160,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+#contact-section {
+    scroll-margin-top: 112px;
+  #socials {
+
+   text-align: center;
+   font-size: calc(55px + 1.5vw);
+   text-decoration: none;
+  }
+  a {
+    color:white;
+  }
+  a:hover {
+    color:dodgerblue;
+    text-decoration: none;
+  }
+}
