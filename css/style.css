@@ -39,9 +39,19 @@ body {
   color: dodgerblue;
   text-align: left; }
 
+#profile-photo {
+  max-width: 650px; }
+  #profile-photo img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    border: 15px solid #343a40; }
+
 #about {
   font-size: calc(12px + 1.5vw);
   scroll-margin-top: 112px; }
+  #about a {
+    color: dodgerblue; }
 
 .service {
   scroll-margin-top: 112px; }
