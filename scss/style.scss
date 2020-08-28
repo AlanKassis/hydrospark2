@@ -86,10 +86,13 @@ body {
     position: relative;
     width:100%;
     margin-bottom: 20vh;
+
     .carousel-item {
       max-height: 40vh;
+
     }
   }
+
   hr {
     background-color: $text-color;
     width: 50%;
@@ -112,6 +115,7 @@ background-color: $primary-color;
     height:auto;
     width:40vh;
     height:auto;
+    z-index:2;
     position: absolute;
     bottom:-50%;
     left:10%;

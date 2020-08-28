@@ -72,6 +72,7 @@ body {
     height: auto;
     width: 40vh;
     height: auto;
+    z-index: 2;
     position: absolute;
     bottom: -50%;
     left: 10%;
