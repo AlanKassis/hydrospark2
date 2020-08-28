@@ -26,14 +26,12 @@ body {
 
 #banner {
   background: black;
-  min-height: 25vh; }
+  min-height: 15vh; }
   #banner #banner-heading {
     font-size: calc(24px + 1.5vw);
     text-align: center; }
   #banner #banner-div #banner-div--button:focus {
     border-color: yellow; }
-  #banner #banner-div #banner-div--copy {
-    margin-top: 1em; }
 
 #navbar-nav--1 {
   flex-direction: row;
@@ -48,6 +46,13 @@ body {
 .dropdown-menu.show {
   position: absolute; }
 
+#home #carouselExampleSlidesOnly {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20vh; }
+  #home #carouselExampleSlidesOnly .carousel-item {
+    max-height: 40vh; }
+
 #home hr {
   background-color: white;
   width: 50%;
@@ -55,16 +60,23 @@ body {
   margin-left: 0; }
 
 #home #home--header {
-  color: dodgerblue;
-  text-align: left; }
+  position: relative;
+  top: 1vh;
+  color: white;
+  text-align: center; }
 
 #profile-photo {
-  max-width: 650px; }
+  background-color: #222222; }
   #profile-photo img {
-    border-radius: 50%;
-    max-width: 100%;
+    background-color: #222222;
     height: auto;
-    border: 15px solid #343a40; }
+    width: 40vh;
+    height: auto;
+    position: absolute;
+    bottom: -50%;
+    left: 10%;
+    border-radius: 50%;
+    border: 5px solid #222222; }
 
 #about {
   font-size: calc(12px + 1.5vw);

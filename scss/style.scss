@@ -44,7 +44,7 @@ body {
 #banner {
   background: black;
   // border: 1px solid dodgerblue;
-  min-height: 25vh;
+  min-height: 15vh;
 
   #banner-heading {
     // border:1px solid dodgerblue;
@@ -58,9 +58,7 @@ body {
       border-color: yellow;
     }
 
-    #banner-div--copy {
-      margin-top: 1em;
-    }
+
   }
 }
 //This makes the space-around flex property work as intended
@@ -84,6 +82,14 @@ body {
 }
 
 #home {
+  #carouselExampleSlidesOnly {
+    position: relative;
+    width:100%;
+    margin-bottom: 20vh;
+    .carousel-item {
+      max-height: 40vh;
+    }
+  }
   hr {
     background-color: $text-color;
     width: 50%;
@@ -92,19 +98,25 @@ body {
   }
 
   #home--header {
-    color: dodgerblue;
-    text-align: left;
+    position: relative;
+    top:1vh;
+    color: white;
+    text-align: center;
   }
 }
 
 #profile-photo {
-  max-width: 650px;
-
+background-color: $primary-color;
   img {
-    border-radius: 50%;
-    max-width: 100%;
-    height: auto;
-    border: 15px solid #343a40;
+    background-color: $primary-color;
+    height:auto;
+    width:40vh;
+    height:auto;
+    position: absolute;
+    bottom:-50%;
+    left:10%;
+    border-radius:50%;
+    border: 5px solid $primary-color;
   }
 }
 
