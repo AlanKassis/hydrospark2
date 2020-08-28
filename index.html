@@ -12,12 +12,25 @@
 </head>
 
 <body>
-  <!-- TODO: Banner -->
-  <div class="container-fluid d-flex d-sm-none" id="CTA">
+  <!--  Banner -->
+  <div class="container-fluid d-flex d-sm-none justify-content-around" id="CTA">
     <!-- TODO: Add the telephone rel tag -->
-    <button type="button" name="call now" id="CTA-call"> CALL NOW </button>
+    <button type="button" name="call now" class="p-2" id="CTA-call">
+      <a href="tel:0418 160 722">
+        <ion-icon name="call-outline">
+        </ion-icon>
+      Call Now
+    </a>
+    </button>
     <!-- TODO: add the ion-icons for FB and Insta Here - then hide this div on larger media -->
-    <div id="CTA-socials">facebook and insta buttons go here</div>
+    <div id="CTA-socials" class="my-auto">
+      <a href="https://www.facebook.com/hydrosparkplumbing">
+        <ion-icon name="logo-facebook" ></ion-icon>
+      </a>
+      <a href="https://www.instagram.com/hydrospark_plumbing/">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+    </div>
   </div>
   <div class="container-fluid d-sm-inline-flex justify-content-start justify-content-sm-around" id="banner">
     <!-- TODO: Add a container with just call us and enquire online buttons that only shows on small breakpoints -->
@@ -58,6 +71,7 @@
 
   <div class="container my-4" id="home">
     <!-- Home -->
+    <!-- TODO: add a slideshow of completed works that's animated -->
     <h1 id="home--header"> Welcome to Hydrospark Plumbing | EST 2008 </h1>
     <!-- TODO: Make this hr more responsive -->
     <hr>
@@ -82,11 +96,11 @@
 
   </div>
   <!-- Services Section -->
-  <!-- TODO: Arrange the services nicely at larger view ports -->
+  <!-- TODO: Make all the text responsive using breakpoints instead of font calc -->
   <!-- row one -->
   <div class="container d-flex mb-4" id="services">
     <div class="container d-flex flex-column flex-lg-row px-0" id="services--wrapper-one">
-      <!-- TODO: Plumbing -->
+      <!-- Plumbing -->
       <div class="container mb-4 service " id="plumbing-section">
         <h1 class="bg-dark service-text"> Plumbing </h1>
         <div class="container" id="plumbing">
@@ -163,19 +177,19 @@
           </div>
         </div>
         We specialise in LPG and Natural Gas.
-       From little jobs such as relocating LPG bottles, installing new gas points for heaters-BBQ or installing a complete new gas system for the house,
-        we have you covered.  We are able to pipe size our jobs onsite to ensure adequate gas flow.
+        From little jobs such as relocating LPG bottles, installing new gas points for heaters-BBQ or installing a complete new gas system for the house,
+        we have you covered. We are able to pipe size our jobs onsite to ensure adequate gas flow.
         Our Speciality is installing new Gas Log Fires. Archer & Rinnai. We are also a credited Archer service team.
       </div>
       <!-- wrapper-one end -->
     </div>
     <!-- row one end -->
   </div>
-    <!-- row 2 -->
-    <div class="container d-flex  mb-4">
+  <!-- row 2 -->
+  <div class="container d-flex  mb-4">
     <div class="container d-flex  flex-column flex-lg-row  px-0" id="services--wrapper-two">
 
-      <!-- TODO: Hot Water -->
+      <!-- Hot Water -->
       <div class="container service" id="hot-water-section">
         <h1 class="bg-dark service-text"> Hot Water </h1>
         <div class="container service" id="hot-water">
@@ -198,7 +212,7 @@
           ranging from electric heaters to continuous flow gas systems.
           we can usually quote over the phone. </p>
       </div>
-      <!-- TODO:  Bathrooms -->
+      <!-- :  Bathrooms -->
       <div class="container mb-4 service" id="bathrooms-section">
         <h1 class="bg-dark service-text"> Bathrooms </h1>
         <div class="container service" id="bathrooms">
@@ -242,10 +256,10 @@
     </div>
     <!-- end services section -->
   </div>
-  <!-- TODO: Contact  -->
+  <!-- : Contact  -->
   <div class="container mb-4" id="contact-section">
     <h1>Contact</h1>
-    <!-- TODO: Add container for social icons -->
+    <!-- container for social icons -->
     <div class="d-flex flex-column flex-sm-row mt-4" id="socials">
       <div class="container d-flex justify-content-around">
         <a href="https://www.facebook.com/hydrosparkplumbing">
@@ -272,7 +286,6 @@
     <!-- Display a container with the link to the 3D Model Software -->
     <!-- Contain a bootstrap grid with images of developments nicely arranged -->
   </div>
-  <!-- 0418 160 722 -->
   <!-- LICENCE #224696C Insert this to footer -->
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

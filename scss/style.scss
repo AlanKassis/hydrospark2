@@ -9,24 +9,38 @@ body {
   background-color: $primary-color;
   color: $text-color;
   font-size: calc(10px + .8vw);
-
   // padding-top: .2em;
 }
-p {
-  position: relative;
-}
+
+
 #CTA {
   background-color: black;
-  #CTA-call {
-    width:50%;
-    border: none;
-    background-color: black;
-    color:white;
+  color: white;
+  font-size: 2em;
+
+  a {
+    color: white;
+    text-decoration: none;
   }
+
+  #CTA-call {
+    a {
+      color:dodgerblue;
+    }
+
+    border:none;
+    background-color: black;
+    ion-icon {
+      color:white;
+      font-size:1em;
+    }
+  }
+
   #CTA-socials {
-    width:50%;
+  font-size:2em;
   }
 }
+
 #banner {
   background: black;
   // border: 1px solid dodgerblue;
@@ -36,7 +50,6 @@ p {
     // border:1px solid dodgerblue;
     font-size: calc(24px + 1.5vw);
     text-align: center;
-
   }
 
   #banner-div {
@@ -83,33 +96,40 @@ p {
     text-align: left;
   }
 }
+
 #profile-photo {
   max-width: 650px;
+
   img {
     border-radius: 50%;
     max-width: 100%;
-    height:auto;
+    height: auto;
     border: 15px solid #343a40;
   }
 }
+
 #about {
-      font-size: calc(12px + 1.5vw);
+  font-size: calc(12px + 1.5vw);
   scroll-margin-top: 112px;
+
   a {
-    color:dodgerblue;
+    color: dodgerblue;
   }
 }
 
 .service {
   scroll-margin-top: 112px;
+
   ul {
     padding-left: 0;
   }
+
   li {
     list-style: none;
   }
+
   ion-icon {
-    color:white;
+    color: white;
     font-size: 1.5em;
   }
 }
@@ -119,10 +139,11 @@ p {
   position: relative;
   // z-index: 1;
 }
+
 #plumbing-section {
   //font size will need adjusting for the sm breakpoint
-
 }
+
 #plumbing {
   display: block;
   position: relative;
@@ -164,20 +185,21 @@ p {
   background-size: cover;
 }
 
-
 #contact-section {
-    scroll-margin-top: 112px;
-  #socials {
+  scroll-margin-top: 112px;
 
-   text-align: center;
-   font-size: calc(55px + 1.5vw);
-   text-decoration: none;
+  #socials {
+    text-align: center;
+    font-size: calc(55px + 1.5vw);
+    text-decoration: none;
   }
+
   a {
-    color:white;
+    color: white;
   }
+
   a:hover {
-    color:dodgerblue;
+    color: dodgerblue;
     text-decoration: none;
   }
 }
