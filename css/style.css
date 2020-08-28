@@ -145,3 +145,13 @@ body {
   #contact-section a:hover {
     color: dodgerblue;
     text-decoration: none; }
+  #contact-section #contact-section--form {
+    color: black;
+    font-weight: 600;
+    background-color: lightgrey;
+    height: 500px;
+    width: 100%; }
+    #contact-section #contact-section--form h1 {
+      text-align: center; }
+    #contact-section #contact-section--form #form--message {
+      text-align: left; }

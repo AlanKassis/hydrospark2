@@ -214,4 +214,19 @@ background-color: $primary-color;
     color: dodgerblue;
     text-decoration: none;
   }
+  #contact-section--form {
+    h1 {
+      text-align: center;
+      
+    }
+    color: black;
+    font-weight: 600;
+    background-color: lightgrey;
+    height: 500px;
+    width:100%;
+    #form--message {
+      text-align:left;
+    }
+  }
+
 }
