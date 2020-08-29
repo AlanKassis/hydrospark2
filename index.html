@@ -10,15 +10,12 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" href="img/fav-icon.png">
 </head>
-<!-- TODO: Adjust the heights of the carousel pictures so they display properly - maybe they just need cropping -->
 <!-- TODO: Add responsive breakpoints and hard code stubborn elements -->
-<!-- TODO: Fix contact form fluidity -->
 <!-- TODO: Fix deisgn of services section -->
 
 <body>
   <!--  Banner -->
   <div class="container-fluid d-flex d-sm-none justify-content-around" id="CTA">
-    <!-- TODO: Add the telephone rel tag -->
     <button type="button" name="call now" class="p-2" id="CTA-call">
       <a href="tel:0418 160 722">
         <ion-icon name="call-outline">
@@ -26,7 +23,6 @@
         Call Now
       </a>
     </button>
-    <!-- TODO: add the ion-icons for FB and Insta Here - then hide this div on larger media -->
     <div id="CTA-socials" class="my-auto">
       <a href="https://www.facebook.com/hydrosparkplumbing">
         <ion-icon name="logo-facebook"></ion-icon>
@@ -37,14 +33,12 @@
     </div>
   </div>
   <div class="container-fluid d-sm-inline-flex justify-content-start justify-content-sm-center" id="banner">
-    <!-- TODO: Add a container with just call us and enquire online buttons that only shows on small breakpoints -->
-    <!-- TODO: Add company logo to the banner -->
     <h1 class="my-auto p-4" id="banner-heading">HYDROSPARK PLUMBING </h1>
     <div class="my-auto d-flex p-4 justify-content-center" id="banner-div">
       <a href="#contact-section--form">
+        <!-- TODO: Give white border -->
         <button type="button" class="btn btn-primary p-4 " id="banner-div--button"> Enquire Online </button>
       </a>
-      <!-- TODO: Hook This up to a modal form -->
     </div>
   </div>
   <!-- Navbar -->
@@ -76,7 +70,6 @@
     <!-- Home -->
     <!-- TODO: Make this hr more responsive -->
     <!-- <hr> -->
-    <!-- TODO: add a slideshow of completed works that's animated -->
     <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade " data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -98,10 +91,9 @@
       </div>
     </div>
     <h1 id="home--header" class="my-3"> Welcome to Hydrospark Plumbing <br> EST. 2008 </h1>
-    <br>
   </div>
   <!-- About -->
-  <div class="container my-5" id="about">
+  <div class="container my-5 pb-5" id="about">
     <h1>About</h1>
     <!-- TODO: Fix the responsive typography here -->
     <p> We have over 20 years of experience in the building industry, we are able to confidently offer all types of plumbing and gas-fitting services.
@@ -158,7 +150,7 @@
         <p> At Hydrospark plumbing we pride ourselves on our service and quality with all plumbing work, maintenance and new installation.
         </p>
       </div>
-      <!-- TODO: Gas Services-->
+      <!--  Gas Services-->
       <div class="container mb-4 service" id="gas-section">
         <h1 class="bg-dark service-text"> Gas </h1>
         <div class="container service" id="gas">
@@ -302,7 +294,7 @@
     <div class="container" class="mb-4">
     <form action="https://formspree.io/xwkrdvjb" method="POST" enctype="multipart/form-data" class="d-flex flex-column justify-content-around" id="contact-section--form">
       <h1 class='my-4'> Get in touch </h1>
-      <div class="d-flex justify-content-around px-4">
+      <div class="d-flex flex-column flex-lg-row justify-content-around px-4">
         <label id="form--name">
           Your name:
           <input type="text">

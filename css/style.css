@@ -1,10 +1,10 @@
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  font-size: 16px; }
 
 body {
   background-color: #222222;
-  color: white;
-  font-size: calc(10px + .8vw); }
+  color: white; }
 
 #CTA {
   background-color: black;
@@ -28,14 +28,14 @@ body {
   background: black;
   min-height: 15vh; }
   #banner #banner-heading {
-    font-size: calc(24px + 1.5vw);
     text-align: center; }
   #banner #banner-div #banner-div--button:focus {
     border-color: yellow; }
 
 #navbar-nav--1 {
   flex-direction: row;
-  width: 100% !important; }
+  width: 100% !important;
+  font-size: 1em; }
 
 .sticky-top {
   top: -1px !important; }
@@ -73,17 +73,11 @@ body {
     background-position: center;
     height: 40vh; }
 
-#home hr {
-  background-color: white;
-  width: 50%;
-  text-align: left;
-  margin-left: 0; }
-
 #home #home--header {
   position: relative;
   top: 1vh;
-  color: white;
-  text-align: center; }
+  text-align: center;
+  font-size: 3em; }
 
 #profile-photo {
   background-color: #222222; }
@@ -100,13 +94,16 @@ body {
     border: 5px solid #222222; }
 
 #about {
-  font-size: calc(12px + 1.5vw);
+  font-size: 1.5em;
   scroll-margin-top: 112px; }
+  #about h1 {
+    font-size: 2em; }
   #about a {
     color: dodgerblue; }
 
 .service {
-  scroll-margin-top: 112px; }
+  scroll-margin-top: 112px;
+  font-size: 1.2em; }
   .service ul {
     padding-left: 0; }
   .service li {
@@ -117,7 +114,8 @@ body {
 
 .service-text {
   text-align: center;
-  position: relative; }
+  position: relative;
+  font-size: 2em; }
 
 #plumbing {
   display: block;
@@ -159,7 +157,7 @@ body {
   scroll-margin-top: 112px; }
   #contact-section #socials {
     text-align: center;
-    font-size: calc(55px + 1.5vw);
+    font-size: 5em;
     text-decoration: none; }
   #contact-section a {
     color: white; }
@@ -168,6 +166,7 @@ body {
     text-decoration: none; }
   #contact-section #contact-section--form {
     border: 2px solid black;
+    font-size: 2em;
     color: black;
     font-weight: 600;
     background-color: lightgrey;
@@ -183,3 +182,7 @@ body {
       border-width: 2px; }
     #contact-section #contact-section--form #form--message {
       text-align: left; }
+
+@media (max-width: 992px) {
+  #carouselExampleSlidesOnly {
+    margin-bottom: 0px !important; } }

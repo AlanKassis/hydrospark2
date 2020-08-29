@@ -3,19 +3,20 @@ $text-color: white;
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 body {
   background-color: $primary-color;
   color: $text-color;
-  font-size: calc(10px + .8vw);
+  // font-size: calc(10px + .8vw);
   // padding-top: .2em;
 }
 
 #CTA {
   background-color: black;
   color: white;
-  font-size: 2em;
+   font-size: 2em;
 
   a {
     color: white;
@@ -47,7 +48,7 @@ body {
 
   #banner-heading {
     // border:1px solid dodgerblue;
-    font-size: calc(24px + 1.5vw);
+    // font-size: calc(24px + 1.5vw);
     text-align: center;
   }
 
@@ -64,6 +65,7 @@ body {
   // height:60px;
   flex-direction: row;
   width: 100%!important;
+  font-size: 1em;
 }
 
 .sticky-top {
@@ -117,18 +119,14 @@ body {
     }
   }
 
-  hr {
-    background-color: $text-color;
-    width: 50%;
-    text-align: left;
-    margin-left: 0;
-  }
+
 
   #home--header {
     position: relative;
     top: 1vh;
-    color: white;
-    text-align: center;
+    text-align:center;
+    font-size: 3em;
+
   }
 }
 
@@ -150,7 +148,10 @@ body {
 }
 
 #about {
-  font-size: calc(12px + 1.5vw);
+  h1 {
+    font-size: 2em;
+  }
+  font-size: 1.5em;
   scroll-margin-top: 112px;
 
   a {
@@ -160,7 +161,7 @@ body {
 
 .service {
   scroll-margin-top: 112px;
-
+  font-size: 1.2em;
   ul {
     padding-left: 0;
   }
@@ -178,6 +179,7 @@ body {
 .service-text {
   text-align: center;
   position: relative;
+  font-size: 2em;
   // z-index: 1;
 }
 
@@ -231,7 +233,7 @@ body {
 
   #socials {
     text-align: center;
-    font-size: calc(55px + 1.5vw);
+    font-size: 5em;
     text-decoration: none;
   }
 
@@ -246,24 +248,65 @@ body {
 
   #contact-section--form {
     border: 2px solid black;
+    font-size: 2em;
     h1 {
       text-align: center;
+
     }
     color: black;
     font-weight: 600;
     background-color: lightgrey;
     width: 100%;
+
     input {
       border-width: 2px;
     }
+
     textarea {
       max-height: 100%;
       resize: none;
       overflow: hidden;
       border-width: 2px;
     }
+
     #form--message {
       text-align: left;
     }
   }
 }
+// breakpoints
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+// @media (max-width: 576px) {
+//   #home {
+//     #home--header {
+//       top: -15vh;
+//     }
+//   }
+//
+//   #about {
+//     margin-top: 0px!important;
+//     font-size: calc(11px + 1.5vw);
+//   }
+// }
+// // Medium devices (tablets, 768px and up)
+// @media (max-width: 768px) {
+//   #home {
+//     #home--header {
+//       top: -15vh;
+//     }
+//   }
+//   #about {
+//     margin-top: 0px!important;
+//     font-size: calc(11px + 1.5vw);
+//   }
+// }
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+  #carouselExampleSlidesOnly {
+    margin-bottom: 0px!important;
+  }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
