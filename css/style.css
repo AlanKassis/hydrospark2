@@ -174,7 +174,8 @@ body {
     #contact-section #contact-section--form h1 {
       text-align: center; }
     #contact-section #contact-section--form input {
-      border-width: 2px; }
+      border-width: 2px;
+      max-width: 100%; }
     #contact-section #contact-section--form textarea {
       max-height: 100%;
       resize: none;
@@ -182,6 +183,10 @@ body {
       border-width: 2px; }
     #contact-section #contact-section--form #form--message {
       text-align: left; }
+
+@media (max-width: 576px) {
+  .service {
+    font-stretch: 2; } }
 
 @media (max-width: 992px) {
   #carouselExampleSlidesOnly {

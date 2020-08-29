@@ -251,7 +251,6 @@ body {
     font-size: 2em;
     h1 {
       text-align: center;
-
     }
     color: black;
     font-weight: 600;
@@ -260,6 +259,7 @@ body {
 
     input {
       border-width: 2px;
+      max-width: 100%;
     }
 
     textarea {
@@ -278,18 +278,12 @@ body {
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 // Small devices (landscape phones, 576px and up)
-// @media (max-width: 576px) {
-//   #home {
-//     #home--header {
-//       top: -15vh;
-//     }
-//   }
-//
-//   #about {
-//     margin-top: 0px!important;
-//     font-size: calc(11px + 1.5vw);
-//   }
-// }
+@media (max-width: 576px) {
+  .service {
+    font-stretch: 2;
+
+  }
+}
 // // Medium devices (tablets, 768px and up)
 // @media (max-width: 768px) {
 //   #home {
