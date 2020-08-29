@@ -52,6 +52,26 @@ body {
   margin-bottom: 20vh; }
   #home #carouselExampleSlidesOnly .carousel-item {
     max-height: 40vh; }
+  #home #carouselExampleSlidesOnly #carousel-1 {
+    background-image: url("/img/bathroom1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40vh; }
+  #home #carouselExampleSlidesOnly #carousel-2 {
+    background-image: url("/img/Bluewater_Lane-27.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 40vh; }
+  #home #carouselExampleSlidesOnly #carousel-3 {
+    background-image: url("/img/outsidebar.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40vh; }
+  #home #carouselExampleSlidesOnly #carousel-4 {
+    background-image: url("/img/Bluewater_Lane-39.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40vh; }
 
 #home hr {
   background-color: white;
@@ -147,12 +167,19 @@ body {
     color: dodgerblue;
     text-decoration: none; }
   #contact-section #contact-section--form {
+    border: 2px solid black;
     color: black;
     font-weight: 600;
     background-color: lightgrey;
-    height: 500px;
     width: 100%; }
     #contact-section #contact-section--form h1 {
       text-align: center; }
+    #contact-section #contact-section--form input {
+      border-width: 2px; }
+    #contact-section #contact-section--form textarea {
+      max-height: 100%;
+      resize: none;
+      overflow: hidden;
+      border-width: 2px; }
     #contact-section #contact-section--form #form--message {
       text-align: left; }

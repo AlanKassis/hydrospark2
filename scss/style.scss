@@ -12,7 +12,6 @@ body {
   // padding-top: .2em;
 }
 
-
 #CTA {
   background-color: black;
   color: white;
@@ -25,19 +24,19 @@ body {
 
   #CTA-call {
     a {
-      color:dodgerblue;
+      color: dodgerblue;
     }
-
-    border:none;
+    border: none;
     background-color: black;
+
     ion-icon {
-      color:white;
-      font-size:1em;
+      color: white;
+      font-size: 1em;
     }
   }
 
   #CTA-socials {
-  font-size:2em;
+    font-size: 2em;
   }
 }
 
@@ -57,8 +56,6 @@ body {
     #banner-div--button:focus {
       border-color: yellow;
     }
-
-
   }
 }
 //This makes the space-around flex property work as intended
@@ -84,12 +81,39 @@ body {
 #home {
   #carouselExampleSlidesOnly {
     position: relative;
-    width:100%;
+    width: 100%;
     margin-bottom: 20vh;
 
     .carousel-item {
       max-height: 40vh;
+    }
 
+    #carousel-1 {
+      background-image: url("/img/bathroom1.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 40vh;
+    }
+
+    #carousel-2 {
+      background-image: url("/img/Bluewater_Lane-27.JPG");
+      background-size: cover;
+      background-position: center;
+      height: 40vh;
+    }
+
+    #carousel-3 {
+      background-image: url("/img/outsidebar.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 40vh;
+    }
+
+    #carousel-4 {
+      background-image: url("/img/Bluewater_Lane-39.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 40vh;
     }
   }
 
@@ -102,24 +126,25 @@ body {
 
   #home--header {
     position: relative;
-    top:1vh;
+    top: 1vh;
     color: white;
     text-align: center;
   }
 }
 
 #profile-photo {
-background-color: $primary-color;
+  background-color: $primary-color;
+
   img {
     background-color: $primary-color;
-    height:auto;
-    width:40vh;
-    height:auto;
-    z-index:2;
+    height: auto;
+    width: 40vh;
+    height: auto;
+    z-index: 2;
     position: absolute;
-    bottom:-50%;
-    left:10%;
-    border-radius:50%;
+    bottom: -50%;
+    left: 10%;
+    border-radius: 50%;
     border: 5px solid $primary-color;
   }
 }
@@ -218,19 +243,27 @@ background-color: $primary-color;
     color: dodgerblue;
     text-decoration: none;
   }
+
   #contact-section--form {
+    border: 2px solid black;
     h1 {
       text-align: center;
-
     }
     color: black;
     font-weight: 600;
     background-color: lightgrey;
-    height: 500px;
-    width:100%;
+    width: 100%;
+    input {
+      border-width: 2px;
+    }
+    textarea {
+      max-height: 100%;
+      resize: none;
+      overflow: hidden;
+      border-width: 2px;
+    }
     #form--message {
-      text-align:left;
+      text-align: left;
     }
   }
-
 }

@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" href="img/fav-icon.png">
 </head>
+<!-- TODO: Adjust the heights of the carousel pictures so they display properly - maybe they just need cropping -->
+<!-- TODO: Add responsive breakpoints and hard code stubborn elements -->
+<!-- TODO: Fix contact form fluidity -->
+<!-- TODO: Fix deisgn of services section -->
 
 <body>
   <!--  Banner -->
@@ -38,8 +42,8 @@
     <h1 class="my-auto p-4" id="banner-heading">HYDROSPARK PLUMBING </h1>
     <div class="my-auto d-flex p-4 justify-content-center" id="banner-div">
       <a href="#contact-section--form">
-      <button type="button" class="btn btn-primary p-4 " id="banner-div--button" > Enquire Online </button>
-    </a>
+        <button type="button" class="btn btn-primary p-4 " id="banner-div--button"> Enquire Online </button>
+      </a>
       <!-- TODO: Hook This up to a modal form -->
     </div>
   </div>
@@ -76,13 +80,16 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade " data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/bathroom1.jpg" class="d-block w-100 " alt="..." alt="" id="carousel-1">
+          <div class="d-block w-100 " id="carousel-1"></div>
         </div>
         <div class="carousel-item ">
-          <img src="img/bathroom2.jpg" class="d-block w-100" alt="..." id="carousel-2">
+          <div class="d-block w-100" id="carousel-2"> </div>
         </div>
         <div class="carousel-item">
-          <img src="img/outsidebar.jpg" class="d-block w-100 " alt="..." id="carousel-3">
+          <div class="d-block w-100 " id="carousel-3"></div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block w-100 " id="carousel-4"></div>
         </div>
       </div>
       <div class="container" id="profile-photo">
@@ -292,27 +299,28 @@
         </a>
       </div>
     </div>
-
-    <form action="https://formspree.io/xwkrdvjb" method="POST" enctype="multipart/form-data" class="container d-flex flex-column justify-content-around" class="mb-4" id="contact-section--form">
-       <h1 class='my-4'> Get in touch </h1>
-      <div class="d-flex my-4 justify-content-between">
-      <label id="form--name">
-        Your name:
-        <input type="text">
-      </label>
-      <label id="form--email" >
-        Your email:
-        <input type="text" name="_replyto">
-      </label>
-      </div>
-      <div class="d-flex  flex-column ">
-      <label id="form--message" >
-        Enquiry:
+    <div class="container" class="mb-4">
+    <form action="https://formspree.io/xwkrdvjb" method="POST" enctype="multipart/form-data" class="d-flex flex-column justify-content-around" id="contact-section--form">
+      <h1 class='my-4'> Get in touch </h1>
+      <div class="d-flex justify-content-around px-4">
+        <label id="form--name">
+          Your name:
+          <input type="text">
         </label>
-        <textarea rows=4 cols="50" name="message"> </textarea>
+        <label id="form--email">
+          Your email:
+          <input type="text" name="_replyto">
+        </label>
       </div>
-      <button type="submit" id="form--submit" class="my-2">Send</button>
+      <div class="d-flex  flex-column justify-content-end px-4">
+        <label id="form--message">
+          Enquiry:
+        </label>
+        <textarea rows=3 cols="50" name="message"> </textarea>
+        <button type="submit" id="form--submit" class="my-4">Send</button>
+      </div>
     </form>
+  </div>
   </div>
   <!-- TODO: DEVELOPMENTs -->
   <div class="container" id="developments">
