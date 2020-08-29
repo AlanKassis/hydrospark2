@@ -184,10 +184,6 @@ body {
     #contact-section #contact-section--form #form--message {
       text-align: left; }
 
-@media (max-width: 576px) {
-  .service {
-    font-stretch: 2; } }
-
 @media (max-width: 992px) {
   #carouselExampleSlidesOnly {
     margin-bottom: 0px !important; } }
