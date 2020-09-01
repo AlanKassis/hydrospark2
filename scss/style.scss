@@ -54,8 +54,12 @@ body {
 
   #banner-div {
     // border: 1px solid dodgerblue;
+    #banner-div--button {
+      border: 3px solid white;
+    }
     #banner-div--button:focus {
       border-color: yellow;
+
     }
   }
 }
@@ -91,7 +95,7 @@ body {
     }
 
     #carousel-1 {
-      background-image: url("/img/bathroom1.jpg");
+      background-image: url("../img/bathroom1.jpg");
       background-size: cover;
       background-position: center;
       height: 40vh;

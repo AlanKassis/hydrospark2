@@ -29,6 +29,8 @@ body {
   min-height: 15vh; }
   #banner #banner-heading {
     text-align: center; }
+  #banner #banner-div #banner-div--button {
+    border: 3px solid white; }
   #banner #banner-div #banner-div--button:focus {
     border-color: yellow; }
 
@@ -53,7 +55,7 @@ body {
   #home #carouselExampleSlidesOnly .carousel-item {
     max-height: 40vh; }
   #home #carouselExampleSlidesOnly #carousel-1 {
-    background-image: url("/img/bathroom1.jpg");
+    background-image: url("../img/bathroom1.jpg");
     background-size: cover;
     background-position: center;
     height: 40vh; }
