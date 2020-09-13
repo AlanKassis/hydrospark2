@@ -25,14 +25,25 @@ body {
     font-size: 2em; }
 
 #banner {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background: black;
   min-height: 15vh; }
-  #banner #banner-heading {
-    text-align: center; }
-  #banner #banner-div #banner-div--button {
-    border: 3px solid white; }
-  #banner #banner-div #banner-div--button:focus {
-    border-color: yellow; }
+  #banner #banner-wrapper {
+    align-items: center;
+    min-height: 15vh; }
+  #banner #banner--hydrospark img {
+    width: 100%; }
+  #banner #banner--hydrospark-logo img {
+    width: 100%; }
+  #banner #banner-button-div {
+    display: block; }
+    #banner #banner-button-div #banner--button {
+      border: 3px solid white;
+      height: 100px;
+      width: 100%; }
+    #banner #banner-button-div #banner--button:focus {
+      border-color: yellow; }
 
 #navbar-nav--1 {
   -webkit-box-orient: horizontal;

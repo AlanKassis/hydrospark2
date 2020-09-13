@@ -16,7 +16,7 @@ body {
 #CTA {
   background-color: black;
   color: white;
-   font-size: 2em;
+  font-size: 2em;
 
   a {
     color: white;
@@ -42,24 +42,40 @@ body {
 }
 
 #banner {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background: black;
   // border: 1px solid dodgerblue;
   min-height: 15vh;
-
-  #banner-heading {
-    // border:1px solid dodgerblue;
-    // font-size: calc(24px + 1.5vw);
-    text-align: center;
+  // overflow: hidden;
+  #banner-wrapper {
+    align-items: center;
+    min-height: 15vh;
   }
 
-  #banner-div {
-    // border: 1px solid dodgerblue;
-    #banner-div--button {
-      border: 3px solid white;
+  #banner--hydrospark {
+    img {
+      width: 100%;
     }
-    #banner-div--button:focus {
-      border-color: yellow;
+  }
 
+  #banner--hydrospark-logo {
+    img {
+      width: 100%;
+    }
+  }
+
+  #banner-button-div {
+    display: block;
+
+    #banner--button {
+      border: 3px solid white;
+      height: 100px;
+      width: 100%;
+    }
+
+    #banner--button:focus {
+      border-color: yellow;
     }
   }
 }
@@ -68,7 +84,7 @@ body {
 #navbar-nav--1 {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%!important;
   font-size: 1em;
@@ -125,14 +141,11 @@ body {
     }
   }
 
-
-
   #home--header {
     position: relative;
     top: 1vh;
-    text-align:center;
+    text-align: center;
     font-size: 3em;
-
   }
 }
 
@@ -168,6 +181,7 @@ body {
 .service {
   scroll-margin-top: 112px;
   font-size: 1.2em;
+
   ul {
     padding-left: 0;
   }
@@ -255,6 +269,7 @@ body {
   #contact-section--form {
     border: 2px solid black;
     font-size: 2em;
+
     h1 {
       text-align: center;
     }
@@ -285,23 +300,12 @@ body {
 // No media query since this is the default in Bootstrap
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
-  .service {
+  // // Medium devices (tablets, 768px and down)
 
+  #banner--hydrospark > img {
 
   }
 }
-// // Medium devices (tablets, 768px and up)
-// @media (max-width: 768px) {
-//   #home {
-//     #home--header {
-//       top: -15vh;
-//     }
-//   }
-//   #about {
-//     margin-top: 0px!important;
-//     font-size: calc(11px + 1.5vw);
-//   }
-// }
 // Large devices (desktops, 992px and up)
 @media (max-width: 992px) {
   #carouselExampleSlidesOnly {
