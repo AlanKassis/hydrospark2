@@ -37,31 +37,28 @@
       </a>
     </div>
   </div>
-<header>
-  <!-- TODO: fix the header to be fully responsive using picture tag and src set for responsive design -->
-  <div class="container-fluid" id="banner">
-    <div class="container-fluid  d-flex justify-content-center" id="banner-wrapper">
-      <div class="d-none d-lg-block">
-        <picture  id="banner--hydrospark-logo">
-          <source media="(max-width: 1200px)" srcset="img/1x/hydrosparkLogo.png">
-          <img src="img/1x/hydrosparkLogo.png" class="mx-4"></img>
-        </picture>
-      </div>
-      <div>
-        <picture class="mx-2" id="banner--hydrospark">
-          <!-- <source media="(max-width: 576px)" srcset="img/0.5x/hydrospark.png" >
-          <source media="(max-width: 1200px)" srcset="img/1x/hydrospark.png"> -->
-          <img src="img/2x/hydrospark.png" >
-        </picture>
-      </div>
-      <div id="banner-button-div" class=" mx-4">
-        <a href="#contact-section--form">
-          <button type="button" class="btn btn-primary d-none d-lg-block" id="banner--button"> Enquire Online </button>
-        </a>
+  <header>
+    <div class="container-fluid" id="banner">
+      <div class="container-fluid  d-flex justify-content-center" id="banner-wrapper">
+        <div class="d-none d-lg-block">
+          <picture id="banner--hydrospark-logo">
+            <source media="(max-width: 1200px)" srcset="img/1x/hydrosparkLogo.png">
+            <img src="img/1x/hydrosparkLogo.png" class="mx-4"></img>
+          </picture>
+        </div>
+        <div>
+          <picture class="mx-2" id="banner--hydrospark">
+            <img src="img/2x/hydrospark.png">
+          </picture>
+        </div>
+        <div id="banner-button-div" class=" mx-4">
+          <a href="#contact-section--form">
+            <button type="button" class="btn btn-primary d-none d-lg-block" id="banner--button"> Enquire Online </button>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</header>
+  </header>
   <!-- Navbar -->
   <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark" id="navbar">
     <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,8 +87,8 @@
 
   <div class="container-fluid mb-4 p-0" id="home">
     <!-- Home -->
-    <!-- <hr> -->
-    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade " data-ride="carousel">
+    <!-- carousel -->
+    <div id="carousel" class="carousel slide carousel-fade " data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="d-block w-100 " id="carousel-1"></div>
@@ -106,10 +103,12 @@
           <div class="d-block w-100 " id="carousel-4"></div>
         </div>
       </div>
+      <!-- TODO: optimize this image -->
       <div class="container" id="profile-photo">
         <img src="img/jared.jpg" alt="A Picture of the Managing Director, Jared" class="d-none d-lg-block">
       </div>
     </div>
+
     <h1 id="home--header" class="my-5 pb-5"> Welcome to Hydrospark Plumbing <br> EST. 2008 </h1>
   </div>
   <!-- About -->
@@ -288,6 +287,8 @@
     </div>
     <!-- end services section -->
   </div>
+  <!-- end services -->
+
   <!-- : Contact  -->
   <div class="container mb-4" id="contact-section">
     <h1>Contact</h1>
@@ -333,15 +334,59 @@
       </form>
     </div>
   </div>
-  <!-- TODO: DEVELOPMENTs -->
+
   <div class="container" id="developments">
     <!-- TODO: This should link to a seperate html page that will take -->
     <!-- The same navbar and header styling -->
     <!-- Display a container with the link to the 3D Model Software -->
     <!-- Contain a bootstrap grid with images of developments nicely arranged -->
   </div>
-  <!-- LICENCE #224696C Insert this to footer -->
+
   <!-- TODO: Add footer -->
+  <footer class="page-footer">
+    <div class="container-fluid text-md-left bg-dark">
+      <!-- row -->
+      <div class="row">
+        <!-- col -->
+        <div class="col-md-6" id="links">
+          <!-- content goes here -->
+          <div id="list-wrapper">
+          <ul class="list-unstyled d-flex justify-content-around">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact-section">Contact</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+        <div class="col-md-6 mb-md-0 mb-3 d-flex justify-content-center ">
+          <!-- content goes here -->
+          <!-- links -->
+          <ul class="list-unstyled">
+            <li>
+              <h4>QLD L. 15055106 </h4>
+            </li>
+            <li>
+              <h4>LICENCE NSW L.#224696C </h4>
+            </li>
+        </div>
+    <!-- Privacy Policy? -->
+    <!-- Terms of Service? -->
+      </div>
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+
+        <a href="https://www.facebook.com/hydrosparkplumbing">Hydrospark Plumbing/Gas</a>
+      </div>
+    </div>
+  </footer>
+
+
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
   </script>

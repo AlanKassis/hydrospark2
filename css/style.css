@@ -62,28 +62,28 @@ body {
 .dropdown-menu.show {
   position: absolute; }
 
-#home #carouselExampleSlidesOnly {
+#home #carousel {
   position: relative;
   width: 100%;
   margin-bottom: 20vh; }
-  #home #carouselExampleSlidesOnly .carousel-item {
+  #home #carousel .carousel-item {
     max-height: 40vh; }
-  #home #carouselExampleSlidesOnly #carousel-1 {
+  #home #carousel #carousel-1 {
     background-image: url("../img/bathroom1.jpg");
     background-size: cover;
     background-position: center;
     height: 40vh; }
-  #home #carouselExampleSlidesOnly #carousel-2 {
+  #home #carousel #carousel-2 {
     background-image: url("/img/Bluewater_Lane-27.JPG");
     background-size: cover;
     background-position: center;
     height: 40vh; }
-  #home #carouselExampleSlidesOnly #carousel-3 {
+  #home #carousel #carousel-3 {
     background-image: url("/img/outsidebar.jpg");
     background-size: cover;
     background-position: center;
     height: 40vh; }
-  #home #carouselExampleSlidesOnly #carousel-4 {
+  #home #carousel #carousel-4 {
     background-image: url("/img/Bluewater_Lane-39.JPG");
     background-size: cover;
     background-position: center;
@@ -199,6 +199,16 @@ body {
     #contact-section #contact-section--form #form--message {
       text-align: left; }
 
+footer #list-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  footer #list-wrapper li {
+    margin-top: 0.5em; }
+    footer #list-wrapper li a {
+      color: white; }
+
 @media (max-width: 992px) {
-  #carouselExampleSlidesOnly {
+  #carousel {
     margin-bottom: 0px !important; } }
