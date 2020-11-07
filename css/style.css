@@ -53,7 +53,7 @@ body {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   width: 100% !important;
-  font-size: 2em; }
+  font-size: 2.5em; }
 
 .sticky-top {
   top: -1px !important; }
