@@ -321,6 +321,34 @@ video#bgvideo {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.bathrooms--before-after {
+  position: relative;
+  width: auto;
+  height: 25vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 2em;
+  border: 1px solid grey;
+  transition: .5s ease; }
+
+#before1:hover {
+  background-position: top; }
+
+#before2:hover {
+  background-position: right; }
+
+#before3:hover {
+  background-position: top; }
+
+#after1:hover {
+  background-position: right; }
+
+#after2:hover {
+  background-position: bottom; }
+
+#after3:hover {
+  background-position: top; }
+
 #contact-section {
   scroll-margin-top: 112px; }
   #contact-section #socials {
